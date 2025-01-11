@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/utils/SessionProvider.tsx"],"sourcesContent":["\"use client\";\nimport React from \"react\";\nimport { SessionProvider } from \"next-auth/react\";\n\nconst AuthProvider = ({ children }: any) => {\n  return <SessionProvider>{children}</SessionProvider>;\n};\n\nexport default AuthProvider;"],"names":[],"mappings":";;;;;;AAAA;;;AAIA,MAAM,eAAe,CAAC,EAAE,QAAQ,EAAO;IACrC,qBAAO,wPAAC,8IAAA,CAAA,kBAAe;kBAAE;;;;;;AAC3B;uCAEe"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/Providers.tsx"],"sourcesContent":["\"use client\";\nimport { Toaster } from \"react-hot-toast\";\n\nimport React from \"react\";\n\nconst Providers = ({ children }: { children: React.ReactNode }) => {\n  return (\n    <>\n      <Toaster\n        toastOptions={{\n          className: \"\",\n          style: {\n            fontSize: \"17px\",\n          },\n        }}\n      />\n      {children}\n    </>\n  );\n};\n\nexport default Providers;\n"],"names":[],"mappings":";;;;;;AAAA;;;AAKA,MAAM,YAAY,CAAC,EAAE,QAAQ,EAAiC;IAC5D,qBACE;;0BACE,wPAAC,uJAAA,CAAA,UAAO;gBACN,cAAc;oBACZ,WAAW;oBACX,OAAO;wBACL,UAAU;oBACZ;gBACF;;;;;;YAED;;;AAGP;uCAEe"}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
